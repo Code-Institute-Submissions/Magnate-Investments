@@ -4,4 +4,4 @@
 
 <h3>Introduction to user experince design (UXD)<h3>
 
-![Projects Wireframes Images](images/wireframes.pdf)
+![Project Wireframe Images](images/wireframes.pdf)
