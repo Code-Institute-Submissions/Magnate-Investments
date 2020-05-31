@@ -5,7 +5,7 @@
 /* Style the navigation bar */
 .navbar {
   width: 100%;
-  background-color: #555;
+  background-color: rgb(11, 9, 107);
   overflow: auto;
 }
 
@@ -16,7 +16,7 @@
   padding: 12px;
   color: white;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 /* Navbar links on mouse-over */
@@ -24,10 +24,6 @@
   background-color: #000;
 }
 
-/* Current/active navbar link */
-.active {
-  background-color: #4CAF50;
-}
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
 @media screen and (max-width: 500px) {
@@ -43,3 +39,17 @@
 max-width: 100%;
 height: auto;
 }
+
+/* social media buttons*/
+
+.fab {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 50px;
+  position: relative; left: 700px; top: 20px;
+  
+}
+
