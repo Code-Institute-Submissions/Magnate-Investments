@@ -5,3 +5,11 @@
 <h3>Introduction to user experince design (UXD)<h3>
 
 ![Project Wireframe Images](images/wireframes.pdf)
+
+Technologies used include css3, html5, bootstrap4
+
+Page layout structure used from code institute "rosie odenkirk" mini project 
+
+Main header image on each page with city skyline downloaded from shutterstock. 
+
+Lora font used from google fonts 
