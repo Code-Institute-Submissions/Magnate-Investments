@@ -1,37 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/* Navigation bar css used from Youtube Tutorial "Dev Ed" */
 
-/* Navigation bar css used from w3schools.com "navigation bar with icons" */
+/* Navigation bar */
 
-/* Style the navigation bar */
-.navbar {
-  width: 100%;
-  background-color: rgb(11, 9, 107);
-  overflow: auto;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
 
-/* Navbar links */
-.navbar a {
-  float: left;
-  text-align: center;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 25px;
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(11, 9, 107);
+    font-family: 'Rajdhani', sans-serif;
+    
+
 }
 
-/* Navbar links on mouse-over */
-.navbar a:hover {
-  background-color: #000;
+.nav-links{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 20px;
+
+
+}
+
+.burger {
+    display: none;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+
+@media screen and (max-width:768px) {
+    body{
+        overflow-x: hidden;
+        }
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: rgb(11, 9, 107);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+    }
+
+    .nav-links li {
+        opacity: 0;
+    }
+
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
 }
 
 
-/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-  }
+
+
+
+.logo{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-size: 40px;
+    
 }
+
+
 
 /* Banner image */
 
@@ -40,7 +99,7 @@ max-width: 100%;
 height: auto;
 }
 
-/* social media buttons*/
+/* social media buttons */
 
 .fab {
   padding: 20px;
@@ -49,7 +108,14 @@ height: auto;
   text-align: center;
   text-decoration: none;
   margin-left: 50px;
-  position: relative; left: 700px; top: 20px;
+  position: relative; left: 700px; top: 2px;
+  color:  #fdfefe ;
   
+}
+
+/* footer */
+
+#footer-content {
+  background:rgb(11, 9, 107);
 }
 
