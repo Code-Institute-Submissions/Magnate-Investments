@@ -6,7 +6,7 @@
 
 ![Project Wireframe Images](images/wireframes.pdf)
 
-Technologies used include css3, html5, bootstrap4, fontawesome, google fonts
+Technologies used include css3, html5, javascript, bootstrap4, fontawesome, google fonts
 
 Page layout structure used from code institute "rosie odenkirk" mini project 
 
