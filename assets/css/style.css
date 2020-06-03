@@ -1,13 +1,28 @@
 .logo {
     color: #cccccc !important;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
 }
-.main_image {
-    object-fit: cover;
+
+
+.banner {
     width: 100%;
+    height: 100%;
+    display: block;
 }
+
+.banner-image {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+
 .custom-color {
     background-color: #435970;
 }
+
+
 .off_white {
     color: #cccccc !important;
 }
@@ -153,3 +168,50 @@
     top: 21px;
     left: 8px;
 }
+
+/* Paragraphs */
+
+#heading {
+    margin: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div p {
+   margin: 50px;
+  
+}
+
+/* footer */
+
+.social-links {
+    font-size: 30px;
+    margin: 0px;
+    margin-top: 50px;
+    background-color: #435970;
+    color: rgb(39, 51, 230);
+}
+
+.social-links a {
+    color: whitesmoke;
+    margin: 20px;
+}
+
+
+/* videos page */
+
+.embed-responsive {
+    margin-top: 10px;
+}
+
+
+.form-group {
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
