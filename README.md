@@ -1,6 +1,4 @@
-Technologies used include css3, html5, bootstrap4, fontawesome, google fonts
 # Magnate Investments 
-
 
 ## Table of Content 
 
@@ -20,54 +18,56 @@ Technologies used include css3, html5, bootstrap4, fontawesome, google fonts
 
 User Centric Frontend Development Milestone Project One 
 
-This website is designed as a beginner friendly guide for Investing. One or two paragraphs providing an overview of your project.
+This website is designed as a beginner friendly guide for Investing. Aimed at getting complete novices to start understanding money and what steps to start taking in order to invest in the stock markets.
 
-Essentially, this part is your sales pitch.
- 
+
 ## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+The focus is to get content out to the end user. The end user should have an easy to use website to be guided towards different types of material which will then help guide them towards real life investing. 
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+In order for the website to provide value to the end user the content would need to be easy to understand and not jargon. 
 
-[Project Wireframe Images](/assets/images/wireframes.pdf)
+[Wireframe Images](/assets/images/wireframes.pdf)
 
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
+- Home - The home page is a brief introduction to the site with a few paragraphs touching on the subject of investments.
+
+- Videos - The videos page is self explanatory, with videos they are an overview of how to begin investing and a break down of how you may learn as a beginner. 
+
+- Newsletter - The newsletter is a subscription form to a fictious newsletter that would be a monthly letter about investments. 
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+### Languages Used
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks, Libraries & Programs Used
+
+1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website for social linking. 
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+
+
+[**To top**](#Table-of-Contents)
 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Tested video user accessibility and able to play and pause, also able to view at different screen sizes. 
+Contact form "try sumbit" working without error messages.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
 
