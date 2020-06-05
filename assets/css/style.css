@@ -26,6 +26,7 @@
 .off_white {
     color: #cccccc !important;
 }
+
 .animated-icon1, .animated-icon2, .animated-icon3 {
     width: 30px;
     height: 20px;
@@ -167,18 +168,6 @@
     transform: rotate(-45deg);
     top: 21px;
     left: 8px;
-}
-
-/* Paragraphs */
-
-#heading {
-    margin: 50px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-div p {
-   margin: 50px;
-  
 }
 
 /* footer */

@@ -56,7 +56,7 @@ In order for the website to provide value to the end user the content would need
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+    - Balsamiq was used to create the [wireframes](/assets/images/wireframes.pdf) during the design process.
 
 
 [**To top**](#Table-of-Contents)
@@ -71,24 +71,28 @@ Contact form "try sumbit" working without error messages.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+### GitHub Pages
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+The project was deployed to GitHub Pages using the following steps...
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://zairaafzal.github.io/MS1/) in the "GitHub Pages" section.
 
 
 ## Credits
 
-### Content
 - The first paragraph on the home page is from the beginners guide to investing on investopedia. [Investopedia](https://www.investopedia.com/articles/basics/06/invest1000.asp)
 
+- The README file template used was sent to me from student care team. 
+
 ### Media
+
 - Main header image used on home and newsletter pages was downloaded from shutterstock
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from Ann Wilson aka [The Wealth Chef](https://thewealthchef.com/) i personally really understood investing from when i found Ann's work. 
