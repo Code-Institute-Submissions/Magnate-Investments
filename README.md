@@ -27,7 +27,14 @@ The focus is to get content out to the end user. The end user should have an eas
 
 In order for the website to provide value to the end user the content would need to be easy to understand and not jargon. 
 
-[Wireframe Images](/assets/images/wireframes.pdf)
+-   ### Design
+    -   #### Colour Scheme
+        -   The three main colours used are Grey, Amber and Navy blue 
+    -   #### Typography
+        -   The Times New Roman is the main font used throughout. 
+        -   The large, background hero image is designed to show the Buisness Magnate walking up the stairs of success. (of course through his/her investments!) 
+    -    #### Wireframes
+            [Wireframe Images](/assets/images/wireframes.pdf)
 
 
 ## Features
@@ -64,6 +71,8 @@ In order for the website to provide value to the end user the content would need
 
 ## Testing
 
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
 Tested video user accessibility and able to play and pause, also able to view at different screen sizes. 
 Contact form "try sumbit" working without error messages.
 
@@ -88,6 +97,8 @@ The project was deployed to GitHub Pages using the following steps...
 - The first paragraph on the home page is from the beginners guide to investing on investopedia. [Investopedia](https://www.investopedia.com/articles/basics/06/invest1000.asp)
 
 - The README file template used was sent to me from student care team. 
+
+- CSS animations for logo learned from [W3schools.com](https://www.w3schools.com/css/css3_animations.asp)
 
 ### Media
 
