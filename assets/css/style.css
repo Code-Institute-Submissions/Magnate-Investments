@@ -2,6 +2,21 @@
     color: #cccccc !important;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
+    animation: move-in-left 3s ease-in-out;
+}
+
+@keyframes move-in-left {
+    0% {
+        opacity: .3;
+        transform: translateX(-20rem);
+    }
+    60% {
+        transform: translateX(2rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
 }
 
 
@@ -22,6 +37,9 @@
     background-color: #435970;
 }
 
+.dark-amber-text {
+    color: orangered;
+}
 
 .off_white {
     color: #cccccc !important;
@@ -192,6 +210,7 @@
     margin-top: 10px;
 }
 
+/* Newsletter */
 
 .form-group {
     margin-top: 30px;
